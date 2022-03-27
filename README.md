@@ -32,3 +32,4 @@ Escape Node VM Sandbox
 ## Resources
 
 - [Payloads All The Things]( https://github.com/swisskyrepo/PayloadsAllTheThings/ )
+- [Reverse Shells Generator]( https://www.revshells.com/ )
