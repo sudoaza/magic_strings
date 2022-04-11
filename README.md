@@ -40,3 +40,4 @@ Escape Node VM Sandbox
 - [Payloads All The Things]( https://github.com/swisskyrepo/PayloadsAllTheThings/ )
 - [Reverse Shells Generator]( https://www.revshells.com/ )
 - [De Obfuscate JS]( https://lelinhtinh.github.io/de4js/ )
+- [XSS Cheat sheet]( https://portswigger.net/web-security/cross-site-scripting/cheat-sheet )
