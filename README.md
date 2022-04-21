@@ -54,3 +54,5 @@ MySQL >=5.6
 - [Reverse Shells Generator]( https://www.revshells.com/ )
 - [De Obfuscate JS]( https://lelinhtinh.github.io/de4js/ )
 - [XSS Cheat sheet]( https://portswigger.net/web-security/cross-site-scripting/cheat-sheet )
+- [HackTricks]( https://book.hacktricks.xyz )
+- [Compile Online]( https://rextester.com/ )
