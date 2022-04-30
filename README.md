@@ -49,7 +49,7 @@ MySQL >=5.6
     
 ### Bypass
 
-#### utf8 encoding
+#### utf8 normalization
 
   " 	%C0%A2 	%E0%80%A2 	%F0%80%80%A2 	Double quote 	
   ' 	%C0%A7 	%E0%80%A7 	%F0%80%80%A7 	Single quote 	
