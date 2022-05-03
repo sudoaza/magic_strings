@@ -51,13 +51,13 @@ MySQL >=5.6
 
 #### utf8 normalization
 
-  " 	%C0%A2 	%E0%80%A2 	%F0%80%80%A2 	Double quote 	
-  ' 	%C0%A7 	%E0%80%A7 	%F0%80%80%A7 	Single quote 	
-  < 	%C0%BC 	%E0%80%BC 	%F0%80%80%BC 	Less-than sign 	
-  > 	%C0%BE 	%E0%80%BE 	%F0%80%80%BE 	Greater-than sign 	
-  . 	%c0%2e %C0%AE 	%E0%80%AE 	%F0%80%80%AE 	Full stop 	
-  / 	%c0%2f %C0%AF 	%E0%80%AF 	%F0%80%80%AF 	Solidus 	
-  \ 	%c0%5c %C1%9C %c0%80%5c %E0%81%9C 	%F0%80%81%9C 	Reverse solidus
+      " 	%C0%A2 	%E0%80%A2 	%F0%80%80%A2 	Double quote 	
+      ' 	%C0%A7 	%E0%80%A7 	%F0%80%80%A7 	Single quote 	
+      < 	%C0%BC 	%E0%80%BC 	%F0%80%80%BC 	Less-than sign 	
+      > 	%C0%BE 	%E0%80%BE 	%F0%80%80%BE 	Greater-than sign 	
+      . 	%c0%2e %C0%AE 	%E0%80%AE 	%F0%80%80%AE 	Full stop 	
+      / 	%c0%2f %C0%AF 	%E0%80%AF 	%F0%80%80%AF 	Solidus 	
+      \ 	%c0%5c %C1%9C %c0%80%5c %E0%81%9C 	%F0%80%81%9C 	Reverse solidus
 
 ## Resources
 
