@@ -15,8 +15,8 @@ url= 'http://google.us.ctf.so/search.php?q=';
 (function() {
 
 window.leform.action = url + payload;
-window.leform.q = payload;
-window.input_recaptcha = recaptcha;
+window.leform.q.value = payload;
+window.input_recaptcha.value = recaptcha;
 
 })();
 </script>
