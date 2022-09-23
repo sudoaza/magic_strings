@@ -128,6 +128,10 @@ Starts with:
 - [Reverse Shells Generator]( https://www.revshells.com/ )
 - [JS Deobfuscator]( https://www.seosniffer.com/javascript-deobfuscator )
 - [De Obfuscate JS]( https://lelinhtinh.github.io/de4js/ )
+- [Compile Online]( https://rextester.com/ )
+
+### Cheatsheets
+
+- [Web CTF Cheatsheet]( https://github.com/sl4x0/Web-CTF-Cheatsheet )
 - [XSS Cheat sheet]( https://portswigger.net/web-security/cross-site-scripting/cheat-sheet )
 - [HackTricks]( https://book.hacktricks.xyz )
-- [Compile Online]( https://rextester.com/ )
