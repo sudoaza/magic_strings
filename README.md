@@ -129,6 +129,7 @@ Starts with:
 - [JS Deobfuscator]( https://www.seosniffer.com/javascript-deobfuscator )
 - [De Obfuscate JS]( https://lelinhtinh.github.io/de4js/ )
 - [Compile Online]( https://rextester.com/ )
+- [IP Format Converter (Bypass)](https://h.43z.one/ipconverter/)
 
 ### Cheatsheets
 
