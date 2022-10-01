@@ -126,10 +126,14 @@ Starts with:
 
 - [Payloads All The Things]( https://github.com/swisskyrepo/PayloadsAllTheThings/ )
 - [Reverse Shells Generator]( https://www.revshells.com/ )
+- [IP Format Converter (Bypass)](https://h.43z.one/ipconverter/)
+
+### De/Compile De/Obfuscate
+
 - [JS Deobfuscator]( https://www.seosniffer.com/javascript-deobfuscator )
 - [De Obfuscate JS]( https://lelinhtinh.github.io/de4js/ )
 - [Compile Online]( https://rextester.com/ )
-- [IP Format Converter (Bypass)](https://h.43z.one/ipconverter/)
+- [Decompile Java](http://www.javadecompilers.com/)
 
 ### Cheatsheets
 
