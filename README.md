@@ -140,3 +140,4 @@ Starts with:
 - [Web CTF Cheatsheet]( https://github.com/sl4x0/Web-CTF-Cheatsheet )
 - [XSS Cheat sheet]( https://portswigger.net/web-security/cross-site-scripting/cheat-sheet )
 - [HackTricks]( https://book.hacktricks.xyz )
+- [💣 PHP Web CTF Cheatsheet](https://github.com/w181496/web-ctf-cheatsheet)
