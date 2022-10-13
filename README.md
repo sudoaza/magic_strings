@@ -141,3 +141,4 @@ Starts with:
 - [XSS Cheat sheet]( https://portswigger.net/web-security/cross-site-scripting/cheat-sheet )
 - [HackTricks]( https://book.hacktricks.xyz )
 - [💣 PHP Web CTF Cheatsheet](https://github.com/w181496/web-ctf-cheatsheet)
+- [XS Leaks]( https://xsleaks.dev/docs/attacks/css-tricks/ )
