@@ -133,7 +133,11 @@ Starts with:
 - [JS Deobfuscator]( https://www.seosniffer.com/javascript-deobfuscator )
 - [De Obfuscate JS]( https://lelinhtinh.github.io/de4js/ )
 - [Compile Online]( https://rextester.com/ )
-- [Decompile Java](http://www.javadecompilers.com/)
+- [Decompile Java]( http://www.javadecompilers.com/ )
+
+### Encode/Decode/Crypto
+
+- [codext]( https://github.com/dhondta/python-codext )
 
 ### Cheatsheets
 
