@@ -137,7 +137,7 @@ Starts with:
 
 ### Encode/Decode/Crypto
 
-- [codext]( https://github.com/dhondta/python-codext )
+- [codext]( https://github.com/dhondta/python-codext ) [Guess mode]( https://python-codext.readthedocs.io/en/latest/guessing.html )
 
 ### Cheatsheets
 
