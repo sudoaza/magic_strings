@@ -1,4 +1,4 @@
-function bk(){ for (var i=0;i<500;i++){ new Image().src="/?i="+str(i) }; }
+function bk(){ for (var i=0;i<500;i++){ new Image().src="/?i="+i } }
 function Xg(variable){
        var vars = window.location.search.substring(1).split("&");
        for (var i=0;i<vars.length;i++) {
