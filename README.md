@@ -133,6 +133,7 @@ Starts with:
 - [Payloads All The Things]( https://github.com/swisskyrepo/PayloadsAllTheThings/ )
 - [Reverse Shells Generator]( https://www.revshells.com/ )
 - [IP Format Converter (Bypass)](https://h.43z.one/ipconverter/)
+- [Photo Osint Resources](https://start.me/p/0PgzqO/photo-osint)
 
 ### De/Compile De/Obfuscate
 
@@ -155,4 +156,5 @@ Starts with:
 
 #### Pentest - Network
 
-https://trojand.com/cheatsheet/
+https://trojand.com/cheatsheet/https://start.me/p/0PgzqO/photo-osint
+
