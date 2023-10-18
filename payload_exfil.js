@@ -1,1 +1,1 @@
-window.test1234.innerHTML = "<h2>test2</h2>";
+getElementById("test1234").innerHTML = "<h2>test2</h2>";
