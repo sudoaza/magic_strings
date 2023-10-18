@@ -1,1 +1,2 @@
-fetch("/secret").then(document.write);
+document.write("here1");
+window.document.write("here2");
