@@ -157,5 +157,7 @@ Starts with:
 
 #### Pentest - Network
 
-https://trojand.com/cheatsheet/https://start.me/p/0PgzqO/photo-osint
+- [OSCP](https://trojand.com/cheatsheet/)
+- [Photo Osint](https://start.me/p/0PgzqO/photo-osint)
+- [Offensive Security](https://cheatsheet.haax.fr) 
 
